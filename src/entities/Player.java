@@ -127,7 +127,7 @@ public class Player extends Entity {
 
         if (state == HIT) {
             if (animationIndex <= getSpriteAmount(state) - 3) {
-                pushBack(pushBackDir, lvlData, 1.55f);
+                pushBack(pushBackDir, lvlData, 1.60f);
             }
             updatePushBackDrawOffset();
         } else {
